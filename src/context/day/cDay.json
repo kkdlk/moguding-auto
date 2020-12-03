@@ -1,0 +1,128 @@
+{
+  "status": "200",
+  "data": [
+    {
+      "txt": ".NET和C#有什么区别?NET一般指 .NET FrameWork框架，它是一种平台，一种技术。C#是一种编程语言，可以基于.NET平台的应用。"
+    },
+    {
+        "txt":"C#中的委托是什么？事件是不是一种委托？委托可以把一个方法作为参数代入另一个方法。委托可以理解为指向一个函数的引用。是，是一种特殊的委托"
+    },
+    {
+        "txt":"简述 private、 protected、 public、internal 修饰符的访问权限。 private : 私有成员, 在类的内部才可以访问。protected: 保护成员，该类内部和继承类中可以访问。public: 公共成员，完全公开，没有访问限制。internal:在同一命名空间内可以访问。"
+    },
+    {
+        "txt":"override与重载的区别override 与重载的区别。重载是方法的名称相同。参数或参数类型不同，进行多次重载以适应不同的需要Override是进行基类中函数的重写。为了适应需要。"
+    },
+    {
+        "txt":"如果在一个B/S结构的系统中需要传递变量值，但是又不能使用Session、Cookie、Application，您有几种方法进行处理？ this.Server.Transfer"
+    },
+    {
+        "txt":"请编程遍历页面上所有TextBox控件并给它赋值为string.Empty？foreach (System.Windows.Forms.Control control in this.Controls){if (control is System.Windows.Forms.TextBox){System.Windows.Forms.TextBox tb = (System.Windows.Forms.TextBox)control ; tb.Text = String.Empty ;}}"
+    },
+    {
+        "txt":"描述一下C#中索引器的实现过程，是否只能根据数字进行索引？答：不是。可以用任意类型。"
+    },
+    {
+        "txt":"什么是装箱和拆箱？从值类型接口转换到引用类型装箱。从引用类型转换到值类型拆箱。"
+    },
+    {
+        "txt":"CTS、CLS、CLR分别作何解释？CTS：通用语言系统。CLS：通用语言规范。CLR：公共语言运行库。"
+    },
+    {
+        "txt":" 什么是受管制的代码？unsafe：非托管代码。不经过CLR运行。什么是强类型系统？RTTI：类型识别系统。"
+    },
+    {
+        "txt":"什么是Code-Behind技术？代码后植。 在.net中，配件的意思是？程序集。（中间语言，源数据，资源，装配清单）"
+    },
+    {
+        "txt":"常用的调用WebService的方法有哪些？ 使用WSDL.exe命令行工具。 使用VS.NET中的Add Web Reference菜单选项"
+    },
+    {
+        "txt":"netRemoting 的工作原理是什么？服务器端向客户端发送一个进程编号，一个程序域编号，以确定对象的位置"
+    },
+    {
+        "txt":"在C＃中，string str = null 与 string str = “” 请尽量使用文字或图象说明其中的区别。string str = null 是不给他分配内存空间,而string str = “” 给它分配长度为空字符串的内存空间。"
+    },
+    {
+        "txt":"请详述在dotnet中类(class)与结构(struct)的异同？Class可以被实例化,属于引用类型,是分配在内存的堆上的,Struct属于值类型,是分配在内存的栈上的."
+    },
+    {
+        "txt":"公司要求开发一个继承System.Windows.Forms.ListView类的组件，要求达到以下的特殊功能：点击ListView各列列头时，能按照点击列的每行值进行重排视图中的所有行 (排序的方式如DataGrid相似)。根据您的知识，请简要谈一下您的思路 答：根据点击的列头,包该列的ID取出,按照该ID排序后,在给绑定到ListView中。"
+    },
+    {
+        "txt":"面向对象的语言具有________性、_________性、________性  封装、继承、多态。"
+    },
+    {
+        "txt":"能用foreach遍历访问的对象需要实现 ________________接口或声明________________方法的类型。IEnumerable 、 GetEnumerator。"
+    },
+    {
+        "txt":"GC是什么? 为什么要有GC?GC是垃圾收集器。程序员不用担心内存管理，因为垃圾收集器会自动进行管理。要请求垃圾收集，可以调用下面的方法之一：System.gc()"
+    },
+    {
+        "txt":".启动一个线程是用run()还是start()?启动一个线程是调用start()方法，使线程所代表的虚拟处理机处于可运行状态，这意味着它可以由JVM调度并执行。这并不意味着线程就会立即运行。run()方法可以产生必须退出的标志来停止一个线程。"
+    },
+    {
+        "txt":"构造器Constructor是否可被override?构造器Constructor不能被继承，因此不能重写Overriding，但可以被重载Overloading。"
+    },
+    {
+        "txt":"是否可以继承String类?String类是final类故不可以继承。"
+    },
+    {
+        "txt":"try{}里有一个return语句，那么紧跟在这个try后的finally {}里的code会不会被执行，什么时候被执行，在return前还是后? 会执行，在return前执行。"
+    },
+    {
+        "txt":"两个对象值相同(x.equals(y)== true)，但却可有不同的hash code，这句话对不对? 不对，有相同的hash code。"
+    },
+    {
+        "txt":"abstract的method是否可同时是static,是否可同时是native，是否可同时是synchronized?都不能。"
+    },
+    {
+        "txt":"List,Set, Map是否继承自Collection接口?List，Set是Map不是"
+    },
+    {
+        "txt":"sleep()和 wait() 有什么区别?sleep()方法是使线程停止一段时间的方法。在sleep 时间间隔期满后，线程不一定立即恢复执行。这是因为在那个时刻，其它线程可能正在运行而且没有被调度为放弃执行，除非(a)“醒来”的线程具有更高的优先级"
+    },
+    {
+        "txt":"shorts1 = 1; s1 = s1 + 1;有什么错? short s1 = 1; s1 += 1;有什么错 short s1 = 1; s1 = s1 + 1;有错，s1是short型，s1+1是int型,不能显式转化为short型。可修改为s1 =(short)(s1 + 1) 。short s1 = 1; s1 += 1正确。"
+    },
+    {
+        "txt":".Session有什么重大BUG，微软提出了什么方法加以解决？是iis中由于有进程回收机制，系统繁忙的话Session会丢失，可以用Sateserver或SQL Server数据库的方式存储Session不过这种方式比较慢，而且无法捕获Session的END事件。"
+    },
+    {
+        "txt":"ASP。NET与ASP相比，主要有哪些进步？asp解释形，aspx编译型，性能提高，有利于保护源码。"
+    },
+    {
+        "txt":"请说明在.net中常用的几种页面间传递参数的方法，并说出他们的优缺点。session(viewstate) 简单，但易丢失application全局cookie简单，但可能不支持，可能被伪造url参数 简单，显示于地址栏，长度有限数据库 稳定，安全，但性能相对弱"
+    },
+    {
+        "txt":"请指出GAC的含义？全局程序集缓存。向服务器发送请求有几种方式？get,post。get一般为链接方式，post一般为按钮方式。"
+    },
+    {
+        "txt":"软件开发过程一般有几个阶段？每个阶段的作用？需求分析，架构设计，代码编写，QA，部署"
+    },
+    {
+        "txt":"DataReader与Dataset有什么区别？一个是只能向前的只读游标，一个是内存中虚拟的数据库。"
+    },
+    {
+        "txt":"什么叫做SQL注入，如何防止？请举例说明。利用sql关键字对网站进行攻击。过滤关键字'等"
+    },
+    {
+        "txt":"什么是反射？动态获取程序集信息用 Singleton如何写设计模式 ：static属性里面new ,构造函数private"
+    },
+    {
+        "txt":"什么是ApplicationPool？Web应用，类似Thread Pool，提高并发性能。什么是虚函数？什么是抽象函数？虚函数：没有实现的，可由子类继承并重写的函数。抽象函数：规定其非虚子类必须实现的函数，必须被重写。"
+    },
+    {
+        "txt":"C#中 property 与 attribute的区别，他们各有什么用处，这种机制的好处在哪里？一个是属性，用于存取类的字段，一个是特性，用来标识类，方法等的附加性质"
+    },
+    {
+        "txt":"重载与覆盖的区别？方法的覆盖是子类和父类之间的关系，是垂直关系；方法的重载是同一个类中方法之间的关系，是水平关系覆盖只能由一个方法，或只能由一对方法产生关系；方法的重载是多个方法之间的关系。"
+    },
+    {
+        "txt":"C#可否对内存进行直接的操作？在.net下，.net引用了垃圾回收（GC）功能，它替代了程序员不过在C#中。"
+    },
+    {
+        "txt":"Overloaded的方法是否可以改变返回值的类型?Overloaded的方法是可以改变返回值的类型。"
+    }
+  ]
+}

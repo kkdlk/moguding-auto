@@ -1,0 +1,12 @@
+{
+  "name": "moguding",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "fs": "0.0.1-security",
+    "jsonfile": "^6.1.0",
+    "path": "^0.12.7"
+  }
+}

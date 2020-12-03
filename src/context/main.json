@@ -1,0 +1,21 @@
+﻿{
+  "RootSckey":"管理员的Server酱秘钥，http://sc.ftqq.com/3.version",
+  "loginData": [
+    {
+      "kkdaj":"kkdaj",
+      "phone": "用户蘑菇丁账号",
+      "password": "用户蘑菇丁账号",
+      "sckey": "server酱密钥绑定可通知微信：http://sc.ftqq.com/3.version,可为空",
+      "token": "用户蘑菇丁TOKEN，可为空",
+      "leableati": "专业：护理、JAVA、学前教育、C#、测试、药学、初等教育、物流管理、会计、",
+      "starttimedate": "周报开始时间,格式为：2020-11-23或者2020-07-20",
+      "province": "西安市",
+      "city": "新城区",
+      "address": "西安市第四医院",
+      "longitude": "经度 经纬度在线获取：http://www.daquan.la/jingwei/",
+      "latitude": "维度  经纬度在线获取： http://www.daquan.la/jingwei/",
+      "signGoToWordTime":"8 代表日报和上班打卡每天早上8点开始，周报每周三早上8点，月报每月月初早上8点开始",
+      "signGoOffWordTime":"18 代标下班打卡每天18点开始"
+    }
+  ]
+}
